@@ -1,0 +1,11 @@
+{
+    __schema {
+        queryType {
+            name,
+            fields {
+                name,
+                description
+            }
+        }
+    }
+}
