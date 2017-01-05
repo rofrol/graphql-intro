@@ -4,12 +4,18 @@
   "description": "A simple GraphQL server",
   "main": "index.js",
   "dependencies": {
-    "babel": "5.8.23",
-    "body-parser": "1.13.2",
-    "express": "4.13.1",
-    "graphql": "0.4.4"
+    "babel": "^6.5.2",
+    "body-parser": "^1.15.2",
+    "eslint": "^3.12.2",
+    "express": "^4.14.0",
+    "graphql": "^0.8.2",
+    "graphql-to-json": "^1.1.2"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "@playlyfe/gql": "^1.1.0",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-register": "^6.18.0"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
